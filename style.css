@@ -1,0 +1,43 @@
+.grid {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: solid  black 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.shooter {
+  background-color: red;
+ }
+
+ .results {
+    margin-left: 50%;
+ }
+
+ .lost {
+     margin-left: 44%;
+     color: red;
+ }
+ .won {
+     margin-left: 44%;
+     color: green;
+ }
+ .laser {
+    background-color: orange;
+    border-radius: 50%;
+ }
+
+ .boom {
+     background-color: red;
+ }
